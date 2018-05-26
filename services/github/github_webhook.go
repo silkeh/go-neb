@@ -6,13 +6,13 @@ import (
 	"sort"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	gogithub "github.com/google/go-github/github"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/services/github/client"
 	"github.com/matrix-org/go-neb/services/github/webhook"
 	"github.com/matrix-org/go-neb/types"
 	"github.com/matrix-org/gomatrix"
+	log "github.com/sirupsen/logrus"
 )
 
 // WebhookServiceType of the Github Webhook service.

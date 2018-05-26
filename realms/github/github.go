@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"net/url"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/google/go-github/github"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/services/github/client"
 	"github.com/matrix-org/go-neb/types"
+	log "github.com/sirupsen/logrus"
 )
 
 // RealmType of the Github Realm

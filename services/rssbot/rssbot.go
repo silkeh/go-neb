@@ -10,7 +10,6 @@ import (
 	"strconv"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/die-net/lrucache"
 	"github.com/gregjones/httpcache"
 	"github.com/matrix-org/go-neb/database"
@@ -19,6 +18,7 @@ import (
 	"github.com/matrix-org/gomatrix"
 	"github.com/mmcdole/gofeed"
 	"github.com/prometheus/client_golang/prometheus"
+	log "github.com/sirupsen/logrus"
 )
 
 // ServiceType of the RSS Bot service

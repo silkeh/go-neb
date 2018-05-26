@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/dugong"
 	"github.com/matrix-org/go-neb/api"
 	"github.com/matrix-org/go-neb/api/handlers"
@@ -34,6 +33,7 @@ import (
 	"github.com/matrix-org/util"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/prometheus/client_golang/prometheus"
+	log "github.com/sirupsen/logrus"
 	yaml "gopkg.in/yaml.v2"
 )
 

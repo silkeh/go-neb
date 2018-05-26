@@ -7,7 +7,6 @@ import (
 	"net/http"
 	"sync"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/go-neb/api"
 	"github.com/matrix-org/go-neb/clients"
 	"github.com/matrix-org/go-neb/database"
@@ -17,6 +16,7 @@ import (
 	"github.com/matrix-org/go-neb/types"
 	"github.com/matrix-org/gomatrix"
 	"github.com/matrix-org/util"
+	log "github.com/sirupsen/logrus"
 )
 
 // ConfigureService represents an HTTP handler which can process /admin/configureService requests.

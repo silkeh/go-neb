@@ -8,7 +8,6 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/go-neb/api"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/matrix"
@@ -16,6 +15,7 @@ import (
 	"github.com/matrix-org/go-neb/types"
 	"github.com/matrix-org/gomatrix"
 	shellwords "github.com/mattn/go-shellwords"
+	log "github.com/sirupsen/logrus"
 )
 
 // A Clients is a collection of clients used for bot services.

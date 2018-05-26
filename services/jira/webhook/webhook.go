@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	gojira "github.com/andygrunwald/go-jira"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/realms/jira"
 	"github.com/matrix-org/util"
+	log "github.com/sirupsen/logrus"
 )
 
 type jiraWebhook struct {

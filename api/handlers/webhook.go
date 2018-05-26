@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/go-neb/clients"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/metrics"
+	log "github.com/sirupsen/logrus"
 )
 
 // Webhook represents an HTTP handler capable of accepting webhook requests on behalf of services.

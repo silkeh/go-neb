@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/go-neb/api"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/metrics"
 	"github.com/matrix-org/go-neb/types"
 	"github.com/matrix-org/util"
+	log "github.com/sirupsen/logrus"
 )
 
 // RequestAuthSession represents an HTTP handler capable of processing /admin/requestAuthSession requests.

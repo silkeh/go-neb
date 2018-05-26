@@ -12,7 +12,6 @@ import (
 	"strings"
 
 	"bytes"
-	log "github.com/sirupsen/logrus"
 	gogithub "github.com/google/go-github/github"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/matrix"
@@ -20,6 +19,7 @@ import (
 	"github.com/matrix-org/go-neb/services/github/client"
 	"github.com/matrix-org/go-neb/types"
 	"github.com/matrix-org/gomatrix"
+	log "github.com/sirupsen/logrus"
 	"html"
 )
 
@@ -450,8 +450,8 @@ func (s *Service) expandCommit(roomID, userID, owner, repo, sha string) interfac
 	if err != nil {
 		log.WithError(err).WithFields(log.Fields{
 			"owner": owner,
-			"repo": repo,
-			"sha": sha,
+			"repo":  repo,
+			"sha":   sha,
 		}).Print("Failed to fetch commit")
 		return nil
 	}

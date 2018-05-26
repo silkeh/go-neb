@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/go-neb/clients"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/types"
+	log "github.com/sirupsen/logrus"
 )
 
 // Remember when we first started polling on this service ID. Polling routines will
