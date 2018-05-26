@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/matrix-org/dugong"
 	"github.com/matrix-org/go-neb/api"
 	"github.com/matrix-org/go-neb/api/handlers"

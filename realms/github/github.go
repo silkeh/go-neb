@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/google/go-github/github"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/services/github/client"

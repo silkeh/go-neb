@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	jira "github.com/andygrunwald/go-jira"
 	"github.com/dghubble/oauth1"
 	"github.com/matrix-org/go-neb/database"

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/die-net/lrucache"
 	"github.com/gregjones/httpcache"
 	"github.com/matrix-org/go-neb/database"

@@ -2,7 +2,7 @@ module github.com/matrix-org/go-neb
 
 require (
 	github.com/PuerkitoBio/goquery v0.0.0-20160831162211-152b1a2c8f5d
-	github.com/Sirupsen/logrus v0.0.0-20160716025631-a283a10442df
+	github.com/sirupsen/logrus v0.0.0-20160716025631-a283a10442df
 	github.com/andybalholm/cascadia v0.0.0-20160831153056-1c31af6f6c1a
 	github.com/andygrunwald/go-jira v0.0.0-20160802152123-ae45380959ec
 	github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a

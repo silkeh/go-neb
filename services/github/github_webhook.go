@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	gogithub "github.com/google/go-github/github"
 	"github.com/matrix-org/go-neb/database"
 	"github.com/matrix-org/go-neb/services/github/client"
