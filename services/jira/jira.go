@@ -216,7 +216,7 @@ func (s *Service) expandIssue(roomID, userID string, issueKeyGroups []string) in
 		return nil
 	}
 
-	issue, _, err := cli.Issue.Get(issueKey)
+	issue, _, err := cli.Issue.Get(issueKey, nil)
 	if err != nil {
 		logger.WithError(err).Print("Failed to GET issue")
 		return err
